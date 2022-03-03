@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    background-color: blueviolet;
+}
+.container {
+    padding: 20px;
+    height: 90%;
+    margin-left: 2%;
+}
+.container-2 {
+    height: 45%;
+    padding: 20px;
+    margin-left: 28%;
+    margin-top: 10%;
+}
+.container, .container-2 {
+    width: 30%;
+    border: 2px solid rgb(135, 73, 235);
+    border-radius: 20px;
+    background-color: mediumslateblue;
+    color: white;
+}
+.register, .login {
+    background-color: green;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.success {
+    display: flex;
+    height: 45px;
+}
+.error {
+    color: rgb(160, 25, 25);
+    height: 10%;
+}
+.success, .error {
+    display: flex;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 15%;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: rgb(20, 170, 20);
+}
